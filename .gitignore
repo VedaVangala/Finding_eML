@@ -1,4 +1,15 @@
+# Sphinx build output
 docs/_build/
+
+# Mac junk files
+.DS_Store
+**/.DS_Store
+
+# Swap files
+*.swp
+*.swo
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
