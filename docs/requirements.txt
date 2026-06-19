@@ -1,6 +1,5 @@
 sphinx==7.1.2
 sphinx-rtd-theme
-nbsphinx
-numpydoc
-furo
 sphinx-copybutton
+numpydoc
+nbsphinx
