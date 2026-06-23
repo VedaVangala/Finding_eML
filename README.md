@@ -15,14 +15,16 @@ Full documentation for the **Finding eML** package — a machine learning classi
 
 ## 📑 Documentation Sections
 
-1. [Outline](#-outline)
-2. [Usage](#-usage--direct-execution)
-3. [Running the Tool](#-running-the-tool) — direct and interactive execution
-4. [API](#-api--source-code) — source code
+1. [🗂️ Outline](https://finding-eml.readthedocs.io/en/latest/outline.html)
+2. [⚙️ Usage](https://finding-eml.readthedocs.io/en/latest/usage.html)
+3. [🚀 Running the Tool](https://finding-eml.readthedocs.io/en/latest/running_tool.html) — [Direct Execution](https://finding-eml.readthedocs.io/en/latest/direct.html) and [Interactive Execution](https://finding-eml.readthedocs.io/en/latest/interactive.html)
+4. [🔬 API](https://finding-eml.readthedocs.io/en/latest/modules.html) — source code
 
 ---
 
 ## 🗂️ Outline
+
+📄 **[Read full Outline →](https://finding-eml.readthedocs.io/en/latest/outline.html)**
 
 The Outline section covers v1.0 and v1.1 categories and how they are obtained, along with details about the classifier, root structure, functions, and execution.
 
@@ -43,6 +45,8 @@ The Outline section covers v1.0 and v1.1 categories and how they are obtained, a
 ---
 
 ## ⚙️ Usage & Direct Execution
+
+📄 **[Read full Usage →](https://finding-eml.readthedocs.io/en/latest/usage.html)**
 
 ### Supported Input Formats
 - CSV (`.csv`) — RNA counts and metadata
@@ -69,27 +73,34 @@ Docker image required: `veda504/finding_eml:v1.1`
 
 ## 🚀 Running the Tool
 
+📄 **[Read full Running the Tool →](https://finding-eml.readthedocs.io/en/latest/running_tool.html)**
+
 After running Docker, the classifier script is called using:
 
 ```bash
 python3 -m eML.classify <arguments>
 ```
 
-See the full example run in the **[documentation](https://finding-eml.readthedocs.io/en/latest/running_tool.html)**.
+### Direct Execution
+📄 **[Read Direct Execution →](https://finding-eml.readthedocs.io/en/latest/direct.html)**
+
+### Interactive Execution
+📄 **[Read Interactive Execution →](https://finding-eml.readthedocs.io/en/latest/interactive.html)**
 
 ### 💡 Notes
 
 - If protein data is present and needs to be added to the classifier run, `--protein` should be flagged and `--protein_suffix` is required to replace `-TotalSeqC` to get format of `CD16ADT`.
-- Each step of execution can also be run separately using the **interactive execution** method.
+- Each step of execution can also be run separately using the **[interactive execution](https://finding-eml.readthedocs.io/en/latest/interactive.html)** method.
 - Reference data and protein file are already included in the package. `--protein_file`, `--ref_model`, `--ref_adata` need to be called as shown in the example run (`/app/…`).
 
 ---
 
 ## 🔬 API — Source Code
 
-Full API reference and source code documentation available at:
+📄 **[Read full API →](https://finding-eml.readthedocs.io/en/latest/modules.html)**
 
-📄 **[https://finding-eml.readthedocs.io/en/latest/modules.html](https://finding-eml.readthedocs.io/en/latest/modules.html)**
+Full API reference and source code documentation:
+- **[classify module →](https://finding-eml.readthedocs.io/en/latest/classify.html)**
 
 ---
 
