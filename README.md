@@ -15,11 +15,11 @@ Full documentation for the **Finding eML** package — a machine learning classi
 
 ## 📑 Documentation Sections
 
-1. [🗂️ Outline](https://finding-eml.readthedocs.io/en/latest/outline.html)
-2. [⚙️ Usage](https://finding-eml.readthedocs.io/en/latest/usage.html)
-3. [🚀 Running the Tool](https://finding-eml.readthedocs.io/en/latest/running_tool.html) — [Direct Execution](https://finding-eml.readthedocs.io/en/latest/direct.html) and [Interactive Execution](https://finding-eml.readthedocs.io/en/latest/interactive.html)
-4. [🔬 API](https://finding-eml.readthedocs.io/en/latest/modules.html) — source code
-
+1. 🗂️ Outline
+2. ⚙️ Usage
+3. 🚀 Running the Tool — Direct and Interactive Execution
+4. 🔬 API — Source Code
+5. 
 ---
 
 ## 🗂️ Outline
