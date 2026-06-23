@@ -57,17 +57,17 @@ Docker image required: `veda504/finding_eml:v1.1`
 
 ### Arguments
 
-| Argument | Required | Description |
-|---|---|---|
-| `--batch` | Optional | Custom batch column name based on experiment/dataset |
-| `--adversarial_classifier` | Optional | Turn on (`True`/`None`) or off (`False`) |
-| `--protein_file` | Optional | Already included in package, call as `/app/...` |
-| `--ref_model` | Optional | Already included in package, call as `/app/...` |
-| `--ref_adata` | Optional | Already included in package, call as `/app/...` |
-| `--classifier_type` | Optional | Default: BBC (Balanced Bagging Classifier) |
-| `--output_dir` | Required | Path to output directory |
-| `--patient` | Required | Prefix added to output file names |
-| `--disable_NK_type` | Optional | Flag to disable v1.1 categories, gives only v1.0 categories |
+| Argument | Description |
+|---|---|
+| `--batch` | Custom batch column name based on experiment/dataset |
+| `--adversarial_classifier` | Turn on (`True`/`None`) or off (`False`) |
+| `--protein_file` | Already included in package, call as `/app/...` |
+| `--ref_model` | Already included in package, call as `/app/...` |
+| `--ref_adata` | Already included in package, call as `/app/...` |
+| `--classifier_type` | Default: BBC (Balanced Bagging Classifier) |
+| `--output_dir` | Path to output directory |
+| `--patient` | Prefix added to output file names |
+| `--disable_NK_type` | Flag to disable v1.1 categories, gives only v1.0 categories |
 
 ---
 
