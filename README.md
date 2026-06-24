@@ -1,6 +1,5 @@
 # Finding eML Documentation
 
-![Python](https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.12-blue)
 ![scRNA-seq](https://img.shields.io/badge/analysis-scRNA--seq-purple)
 ![NK cells](https://img.shields.io/badge/cell%20type-NK%20cells-teal)
 ![Machine Learning](https://img.shields.io/badge/method-machine%20learning-yellow)
